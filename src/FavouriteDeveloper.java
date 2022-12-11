@@ -7,5 +7,4 @@ public class FavouriteDeveloper {
 		JOptionPane.showMessageDialog(null, "Dily!", "Favourite Developer", JOptionPane.INFORMATION_MESSAGE, icon);
 		System.out.println("Dily!") ;
 	}
-
 }
