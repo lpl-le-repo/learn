@@ -10,23 +10,45 @@ public class FavouriteDeveloper {
 	 */
 
 	public static void main(String[] args) {
-		int priceDriving = 75, priceWorkingHour = 125, hours, result;
-		hours = getValue("Anz Stunden? ", Boolean.TRUE);
-		//second = getValue("Zweite Zahl? ", Boolean.TRUE);
-		result = priceDriving + (hours * priceWorkingHour);
+		// int centi;
+		// zoll = getValue("Zoll? ", Boolean.TRUE);
+
+		int i = 10;
+		System.out.println(i++);
+		System.out.println(--i);
+		--i;
+		i--;
+		System.out.println(i);
+		System.out.println(++i);
+		System.out.println(i--);
+		System.out.println(i);
+
+		/* int fiveFrancs = sum / 500;
+		rest = sum % 500;
+
+		int twoFrancs = rest / 200;
+		rest = rest % 200;
+
+		int oneFrancs = rest / 100;
+		rest = rest % 100;
+
+		int halfFranc = rest / 50;
+		rest = rest % 50;
+
+		int twentyRappen = rest / 20;
+		rest = rest % 20;
+
+		int tenRappen = rest / 10;
+		rest = rest % 10;
+
+		int fiveRappen = rest / 5;
+		rest = rest % 5; */
+
 
 		// ImageIcon icon = new ImageIcon("src/bild.jpg");
 		// JOptionPane.showMessageDialog(null, "Dily!", "Favourite Developer", JOptionPane.INFORMATION_MESSAGE, icon);
 		// System.out.println("Dily!");
-		// System.out.println(System.getProperty("java.version"));
-		// Initialize keyboard objaect from class scanner
-		// printout the input from keyboard
-		// System.out.println(keyboard.next());
-		// System.out.println(keyboard.next());
-		// System.out.println(keyboard.nextLine());
-		//System.out.println(keyboard.findWithinHorizon("a",0).charAt(0));
-		// System.out.println("Schokolade \nHonorare\nSchlafen");
-		System.out.println("Die Kosten für " + hours + " Stunden sind: " + result);
+		// System.out.println("Sie sind " + centi + " Zentimeter gross.");
 
 	}
 
